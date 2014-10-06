@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		849E017519DAA8F5008B5823 /* SideTabBarContentDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 849E017419DAA8F5008B5823 /* SideTabBarContentDescription.m */; };
+		84A4280A19DE8D5B00E9AC0A /* SideTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4280919DE8D5B00E9AC0A /* SideTabBarView.m */; };
+		84A67E7919D58B9700DF2EA5 /* UISideBarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A67E7819D58B9700DF2EA5 /* UISideBarDelegate.m */; };
 		84A9FE3519D3FE0F00A39C67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9FE3419D3FE0F00A39C67 /* Foundation.framework */; };
 		84A9FE3719D3FE0F00A39C67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9FE3619D3FE0F00A39C67 /* CoreGraphics.framework */; };
 		84A9FE3919D3FE0F00A39C67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9FE3819D3FE0F00A39C67 /* UIKit.framework */; };
 		84A9FE3F19D3FE0F00A39C67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FE3D19D3FE0F00A39C67 /* InfoPlist.strings */; };
 		84A9FE4119D3FE0F00A39C67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FE4019D3FE0F00A39C67 /* main.m */; };
 		84A9FE4519D3FE0F00A39C67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FE4419D3FE0F00A39C67 /* AppDelegate.m */; };
-		84A9FE4819D3FE0F00A39C67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FE4619D3FE0F00A39C67 /* Main.storyboard */; };
 		84A9FE4B19D3FE0F00A39C67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FE4A19D3FE0F00A39C67 /* ViewController.m */; };
 		84A9FE4D19D3FE0F00A39C67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FE4C19D3FE0F00A39C67 /* Images.xcassets */; };
 		84A9FE5419D3FE0F00A39C67 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9FE5319D3FE0F00A39C67 /* XCTest.framework */; };
@@ -21,6 +23,11 @@
 		84A9FE5619D3FE0F00A39C67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9FE3819D3FE0F00A39C67 /* UIKit.framework */; };
 		84A9FE5E19D3FE0F00A39C67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FE5C19D3FE0F00A39C67 /* InfoPlist.strings */; };
 		84A9FE6019D3FE0F00A39C67 /* SideTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FE5F19D3FE0F00A39C67 /* SideTabBarControllerTests.m */; };
+		84A9FE7719D404E300A39C67 /* SideTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FE7619D404E300A39C67 /* SideTabBarController.m */; };
+		84A9FE7A19D41B0E00A39C67 /* SideTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FE7919D41B0E00A39C67 /* SideTabBarItem.m */; };
+		84A9FE7D19D4289F00A39C67 /* SideTabBarMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FE7C19D4289F00A39C67 /* SideTabBarMenuView.m */; };
+		84AE3AB519D9419F00F91C90 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE3AB419D9419F00F91C90 /* MoreViewController.m */; };
+		84AE3AB719D96F6B00F91C90 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AE3AB619D96F6B00F91C90 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		849E017319DAA8F5008B5823 /* SideTabBarContentDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideTabBarContentDescription.h; sourceTree = "<group>"; };
+		849E017419DAA8F5008B5823 /* SideTabBarContentDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideTabBarContentDescription.m; sourceTree = "<group>"; };
+		84A4280819DE8D5B00E9AC0A /* SideTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideTabBarView.h; sourceTree = "<group>"; };
+		84A4280919DE8D5B00E9AC0A /* SideTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideTabBarView.m; sourceTree = "<group>"; };
+		84A67E7719D58B9700DF2EA5 /* UISideBarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISideBarDelegate.h; sourceTree = "<group>"; };
+		84A67E7819D58B9700DF2EA5 /* UISideBarDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISideBarDelegate.m; sourceTree = "<group>"; };
 		84A9FE3119D3FE0F00A39C67 /* SideTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A9FE3419D3FE0F00A39C67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84A9FE3619D3FE0F00A39C67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +57,6 @@
 		84A9FE4219D3FE0F00A39C67 /* SideTabBarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SideTabBarController-Prefix.pch"; sourceTree = "<group>"; };
 		84A9FE4319D3FE0F00A39C67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84A9FE4419D3FE0F00A39C67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84A9FE4719D3FE0F00A39C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84A9FE4919D3FE0F00A39C67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84A9FE4A19D3FE0F00A39C67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84A9FE4C19D3FE0F00A39C67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +65,15 @@
 		84A9FE5B19D3FE0F00A39C67 /* SideTabBarControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SideTabBarControllerTests-Info.plist"; sourceTree = "<group>"; };
 		84A9FE5D19D3FE0F00A39C67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84A9FE5F19D3FE0F00A39C67 /* SideTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SideTabBarControllerTests.m; sourceTree = "<group>"; };
+		84A9FE7519D404E300A39C67 /* SideTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideTabBarController.h; sourceTree = SOURCE_ROOT; };
+		84A9FE7619D404E300A39C67 /* SideTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideTabBarController.m; sourceTree = SOURCE_ROOT; };
+		84A9FE7819D41B0E00A39C67 /* SideTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideTabBarItem.h; path = SideTabBarController/SideTabBarItem.h; sourceTree = "<group>"; };
+		84A9FE7919D41B0E00A39C67 /* SideTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideTabBarItem.m; path = SideTabBarController/SideTabBarItem.m; sourceTree = "<group>"; };
+		84A9FE7B19D4289F00A39C67 /* SideTabBarMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideTabBarMenuView.h; path = SideTabBarController/SideTabBarMenuView.h; sourceTree = "<group>"; };
+		84A9FE7C19D4289F00A39C67 /* SideTabBarMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideTabBarMenuView.m; path = SideTabBarController/SideTabBarMenuView.m; sourceTree = "<group>"; };
+		84AE3AB319D9419F00F91C90 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		84AE3AB419D9419F00F91C90 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		84AE3AB619D96F6B00F91C90 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +100,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84A6427519E2CDC8008EEE42 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		84A9FE2819D3FE0F00A39C67 = {
 			isa = PBXGroup;
 			children = (
+				84A6427519E2CDC8008EEE42 /* Images */,
+				84A9FE7F19D428CC00A39C67 /* SideTabBarItem */,
+				84A9FE7E19D428B600A39C67 /* SideTabBar */,
 				84A9FE3A19D3FE0F00A39C67 /* SideTabBarController */,
 				84A9FE5919D3FE0F00A39C67 /* SideTabBarControllerTests */,
 				84A9FE3319D3FE0F00A39C67 /* Frameworks */,
@@ -112,11 +143,19 @@
 		84A9FE3A19D3FE0F00A39C67 /* SideTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				84A4280819DE8D5B00E9AC0A /* SideTabBarView.h */,
+				84A4280919DE8D5B00E9AC0A /* SideTabBarView.m */,
+				849E017319DAA8F5008B5823 /* SideTabBarContentDescription.h */,
+				849E017419DAA8F5008B5823 /* SideTabBarContentDescription.m */,
+				84AE3AB319D9419F00F91C90 /* MoreViewController.h */,
+				84AE3AB419D9419F00F91C90 /* MoreViewController.m */,
+				84A9FE7519D404E300A39C67 /* SideTabBarController.h */,
+				84A9FE7619D404E300A39C67 /* SideTabBarController.m */,
 				84A9FE4319D3FE0F00A39C67 /* AppDelegate.h */,
 				84A9FE4419D3FE0F00A39C67 /* AppDelegate.m */,
-				84A9FE4619D3FE0F00A39C67 /* Main.storyboard */,
 				84A9FE4919D3FE0F00A39C67 /* ViewController.h */,
 				84A9FE4A19D3FE0F00A39C67 /* ViewController.m */,
+				84AE3AB619D96F6B00F91C90 /* Storyboard.storyboard */,
 				84A9FE4C19D3FE0F00A39C67 /* Images.xcassets */,
 				84A9FE3B19D3FE0F00A39C67 /* Supporting Files */,
 			);
@@ -150,6 +189,26 @@
 				84A9FE5C19D3FE0F00A39C67 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84A9FE7E19D428B600A39C67 /* SideTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				84A9FE7B19D4289F00A39C67 /* SideTabBarMenuView.h */,
+				84A9FE7C19D4289F00A39C67 /* SideTabBarMenuView.m */,
+				84A67E7719D58B9700DF2EA5 /* UISideBarDelegate.h */,
+				84A67E7819D58B9700DF2EA5 /* UISideBarDelegate.m */,
+			);
+			name = SideTabBar;
+			sourceTree = "<group>";
+		};
+		84A9FE7F19D428CC00A39C67 /* SideTabBarItem */ = {
+			isa = PBXGroup;
+			children = (
+				84A9FE7819D41B0E00A39C67 /* SideTabBarItem.h */,
+				84A9FE7919D41B0E00A39C67 /* SideTabBarItem.m */,
+			);
+			name = SideTabBarItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +289,7 @@
 			files = (
 				84A9FE4D19D3FE0F00A39C67 /* Images.xcassets in Resources */,
 				84A9FE3F19D3FE0F00A39C67 /* InfoPlist.strings in Resources */,
-				84A9FE4819D3FE0F00A39C67 /* Main.storyboard in Resources */,
+				84AE3AB719D96F6B00F91C90 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +308,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A9FE7D19D4289F00A39C67 /* SideTabBarMenuView.m in Sources */,
+				84AE3AB519D9419F00F91C90 /* MoreViewController.m in Sources */,
 				84A9FE4B19D3FE0F00A39C67 /* ViewController.m in Sources */,
+				84A67E7919D58B9700DF2EA5 /* UISideBarDelegate.m in Sources */,
 				84A9FE4519D3FE0F00A39C67 /* AppDelegate.m in Sources */,
+				84A9FE7A19D41B0E00A39C67 /* SideTabBarItem.m in Sources */,
+				84A9FE7719D404E300A39C67 /* SideTabBarController.m in Sources */,
+				84A4280A19DE8D5B00E9AC0A /* SideTabBarView.m in Sources */,
+				849E017519DAA8F5008B5823 /* SideTabBarContentDescription.m in Sources */,
 				84A9FE4119D3FE0F00A39C67 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,14 +346,6 @@
 				84A9FE3E19D3FE0F00A39C67 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		84A9FE4619D3FE0F00A39C67 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84A9FE4719D3FE0F00A39C67 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		84A9FE5C19D3FE0F00A39C67 /* InfoPlist.strings */ = {
@@ -458,6 +516,7 @@
 				84A9FE6519D3FE0F00A39C67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84A9FE6619D3FE0F00A39C67 /* Build configuration list for PBXNativeTarget "SideTabBarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +525,7 @@
 				84A9FE6819D3FE0F00A39C67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
