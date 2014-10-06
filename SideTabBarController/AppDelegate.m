@@ -16,8 +16,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // first item
-    SideTabBarItem *tabBarItem = [SideTabBarItem new];
-    tabBarItem.title = @"First";
+    SideTabBarItem *tabBarItem = [[SideTabBarItem alloc] initWithTitle:@"First" image:[UIImage imageNamed:@"emoji_objects.png"]];
+    tabBarItem.selectedImage = [UIImage imageNamed:@"UIImageNameIndicatorDot@2x.png"];
     
     UIViewController* firstController = [UIViewController new];
     UIWebView* webView = [UIWebView new];
@@ -33,8 +33,8 @@
     content.tabBarItem = tabBarItem;
     
     // second item
-    SideTabBarItem *tabBarItem1 = [SideTabBarItem new];
-    tabBarItem1.title = @"Second";
+    SideTabBarItem *tabBarItem1 = [[SideTabBarItem alloc] initWithTitle:@"Second" image:[UIImage imageNamed:@"emoji_people.png"]];
+    tabBarItem1.selectedImage = [UIImage imageNamed:@"UIImageNameIndicatorDot@2x.png"];
     
     UIViewController* firstController1 = [UIViewController new];
     UIWebView* webView1 = [UIWebView new];
@@ -50,8 +50,8 @@
     content1.tabBarItem = tabBarItem1;
     
     // third item
-    SideTabBarItem *tabBarItem2 = [SideTabBarItem new];
-    tabBarItem2.title = @"Third";
+    SideTabBarItem *tabBarItem2 = [[SideTabBarItem alloc] initWithTitle:@"Third" image:[UIImage imageNamed:@"emoji_places.png"]];
+    tabBarItem2.selectedImage = [UIImage imageNamed:@"UIImageNameIndicatorDot@2x.png"];
     
     UIViewController* firstController2 = [UIViewController new];
     UIWebView* webView2 = [UIWebView new];

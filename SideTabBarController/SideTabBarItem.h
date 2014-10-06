@@ -11,8 +11,10 @@
 @interface SideTabBarItem : UIButton
 
 @property(nonatomic, strong) NSString *title;
+@property(nonatomic) UIImage *selectedImage;
 
-- (id)initWithFrame:(CGRect)frame title:(NSString *)title image:(UIImage *)image selectedImage:(UIImage *)selectedImage tag:(NSInteger)itemTag;
+- (id)initWithTitle:(NSString *)title image:(UIImage *)image selectedImage:(UIImage *)selectedImage;
+- (id)initWithTitle:(NSString *)title image:(UIImage *)image;
 - (void)selectMe:(BOOL)sel;
 
 @end

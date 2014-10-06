@@ -26,6 +26,10 @@
 		84A9FE7719D404E300A39C67 /* SideTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FE7619D404E300A39C67 /* SideTabBarController.m */; };
 		84A9FE7A19D41B0E00A39C67 /* SideTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FE7919D41B0E00A39C67 /* SideTabBarItem.m */; };
 		84A9FE7D19D4289F00A39C67 /* SideTabBarMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FE7C19D4289F00A39C67 /* SideTabBarMenuView.m */; };
+		84AC79C119E2D3AD00287964 /* emoji_objects.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC79BF19E2D3AD00287964 /* emoji_objects.png */; };
+		84AC79C219E2D3AD00287964 /* emoji_places.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC79C019E2D3AD00287964 /* emoji_places.png */; };
+		84AC79C419E2DA9800287964 /* emoji_people.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC79C319E2DA9800287964 /* emoji_people.png */; };
+		84AD8A5219E2DF7500842DE7 /* UIImageNameIndicatorDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AD8A5119E2DF7500842DE7 /* UIImageNameIndicatorDot@2x.png */; };
 		84AE3AB519D9419F00F91C90 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE3AB419D9419F00F91C90 /* MoreViewController.m */; };
 		84AE3AB719D96F6B00F91C90 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AE3AB619D96F6B00F91C90 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
@@ -71,6 +75,10 @@
 		84A9FE7919D41B0E00A39C67 /* SideTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideTabBarItem.m; path = SideTabBarController/SideTabBarItem.m; sourceTree = "<group>"; };
 		84A9FE7B19D4289F00A39C67 /* SideTabBarMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideTabBarMenuView.h; path = SideTabBarController/SideTabBarMenuView.h; sourceTree = "<group>"; };
 		84A9FE7C19D4289F00A39C67 /* SideTabBarMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideTabBarMenuView.m; path = SideTabBarController/SideTabBarMenuView.m; sourceTree = "<group>"; };
+		84AC79BF19E2D3AD00287964 /* emoji_objects.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emoji_objects.png; path = ../../emoji_objects.png; sourceTree = "<group>"; };
+		84AC79C019E2D3AD00287964 /* emoji_places.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emoji_places.png; path = ../../emoji_places.png; sourceTree = "<group>"; };
+		84AC79C319E2DA9800287964 /* emoji_people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emoji_people.png; path = ../../emoji_people.png; sourceTree = "<group>"; };
+		84AD8A5119E2DF7500842DE7 /* UIImageNameIndicatorDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UIImageNameIndicatorDot@2x.png"; path = "../../UIImageNameIndicatorDot@2x.png"; sourceTree = "<group>"; };
 		84AE3AB319D9419F00F91C90 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
 		84AE3AB419D9419F00F91C90 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
 		84AE3AB619D96F6B00F91C90 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
@@ -103,6 +111,10 @@
 		84A6427519E2CDC8008EEE42 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				84AD8A5119E2DF7500842DE7 /* UIImageNameIndicatorDot@2x.png */,
+				84AC79C319E2DA9800287964 /* emoji_people.png */,
+				84AC79BF19E2D3AD00287964 /* emoji_objects.png */,
+				84AC79C019E2D3AD00287964 /* emoji_places.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -287,7 +299,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AD8A5219E2DF7500842DE7 /* UIImageNameIndicatorDot@2x.png in Resources */,
+				84AC79C219E2D3AD00287964 /* emoji_places.png in Resources */,
 				84A9FE4D19D3FE0F00A39C67 /* Images.xcassets in Resources */,
+				84AC79C119E2D3AD00287964 /* emoji_objects.png in Resources */,
+				84AC79C419E2DA9800287964 /* emoji_people.png in Resources */,
 				84A9FE3F19D3FE0F00A39C67 /* InfoPlist.strings in Resources */,
 				84AE3AB719D96F6B00F91C90 /* Storyboard.storyboard in Resources */,
 			);
