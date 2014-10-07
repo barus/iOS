@@ -19,7 +19,7 @@
 
 @end
 
-@protocol SideBarDelegate<NSObject>
+@protocol SideBarDelegate <NSObject>
 
 - (void)didSelectTabBarItem:(SideTabBarItem *)sender;
 

@@ -9,14 +9,12 @@
 /* Begin PBXBuildFile section */
 		849E017519DAA8F5008B5823 /* SideTabBarContentDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 849E017419DAA8F5008B5823 /* SideTabBarContentDescription.m */; };
 		84A4280A19DE8D5B00E9AC0A /* SideTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4280919DE8D5B00E9AC0A /* SideTabBarView.m */; };
-		84A67E7919D58B9700DF2EA5 /* UISideBarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A67E7819D58B9700DF2EA5 /* UISideBarDelegate.m */; };
 		84A9FE3519D3FE0F00A39C67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9FE3419D3FE0F00A39C67 /* Foundation.framework */; };
 		84A9FE3719D3FE0F00A39C67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9FE3619D3FE0F00A39C67 /* CoreGraphics.framework */; };
 		84A9FE3919D3FE0F00A39C67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9FE3819D3FE0F00A39C67 /* UIKit.framework */; };
 		84A9FE3F19D3FE0F00A39C67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FE3D19D3FE0F00A39C67 /* InfoPlist.strings */; };
 		84A9FE4119D3FE0F00A39C67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FE4019D3FE0F00A39C67 /* main.m */; };
 		84A9FE4519D3FE0F00A39C67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FE4419D3FE0F00A39C67 /* AppDelegate.m */; };
-		84A9FE4B19D3FE0F00A39C67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9FE4A19D3FE0F00A39C67 /* ViewController.m */; };
 		84A9FE4D19D3FE0F00A39C67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A9FE4C19D3FE0F00A39C67 /* Images.xcassets */; };
 		84A9FE5419D3FE0F00A39C67 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9FE5319D3FE0F00A39C67 /* XCTest.framework */; };
 		84A9FE5519D3FE0F00A39C67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9FE3419D3FE0F00A39C67 /* Foundation.framework */; };
@@ -30,8 +28,6 @@
 		84AC79C219E2D3AD00287964 /* emoji_places.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC79C019E2D3AD00287964 /* emoji_places.png */; };
 		84AC79C419E2DA9800287964 /* emoji_people.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC79C319E2DA9800287964 /* emoji_people.png */; };
 		84AD8A5219E2DF7500842DE7 /* UIImageNameIndicatorDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AD8A5119E2DF7500842DE7 /* UIImageNameIndicatorDot@2x.png */; };
-		84AE3AB519D9419F00F91C90 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE3AB419D9419F00F91C90 /* MoreViewController.m */; };
-		84AE3AB719D96F6B00F91C90 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AE3AB619D96F6B00F91C90 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +45,6 @@
 		849E017419DAA8F5008B5823 /* SideTabBarContentDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideTabBarContentDescription.m; sourceTree = "<group>"; };
 		84A4280819DE8D5B00E9AC0A /* SideTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideTabBarView.h; sourceTree = "<group>"; };
 		84A4280919DE8D5B00E9AC0A /* SideTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideTabBarView.m; sourceTree = "<group>"; };
-		84A67E7719D58B9700DF2EA5 /* UISideBarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISideBarDelegate.h; sourceTree = "<group>"; };
-		84A67E7819D58B9700DF2EA5 /* UISideBarDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISideBarDelegate.m; sourceTree = "<group>"; };
 		84A9FE3119D3FE0F00A39C67 /* SideTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A9FE3419D3FE0F00A39C67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84A9FE3619D3FE0F00A39C67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,8 +55,6 @@
 		84A9FE4219D3FE0F00A39C67 /* SideTabBarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SideTabBarController-Prefix.pch"; sourceTree = "<group>"; };
 		84A9FE4319D3FE0F00A39C67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84A9FE4419D3FE0F00A39C67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84A9FE4919D3FE0F00A39C67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84A9FE4A19D3FE0F00A39C67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84A9FE4C19D3FE0F00A39C67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84A9FE5219D3FE0F00A39C67 /* SideTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A9FE5319D3FE0F00A39C67 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -79,9 +71,6 @@
 		84AC79C019E2D3AD00287964 /* emoji_places.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emoji_places.png; path = ../../emoji_places.png; sourceTree = "<group>"; };
 		84AC79C319E2DA9800287964 /* emoji_people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emoji_people.png; path = ../../emoji_people.png; sourceTree = "<group>"; };
 		84AD8A5119E2DF7500842DE7 /* UIImageNameIndicatorDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UIImageNameIndicatorDot@2x.png"; path = "../../UIImageNameIndicatorDot@2x.png"; sourceTree = "<group>"; };
-		84AE3AB319D9419F00F91C90 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
-		84AE3AB419D9419F00F91C90 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
-		84AE3AB619D96F6B00F91C90 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,15 +148,10 @@
 				84A4280919DE8D5B00E9AC0A /* SideTabBarView.m */,
 				849E017319DAA8F5008B5823 /* SideTabBarContentDescription.h */,
 				849E017419DAA8F5008B5823 /* SideTabBarContentDescription.m */,
-				84AE3AB319D9419F00F91C90 /* MoreViewController.h */,
-				84AE3AB419D9419F00F91C90 /* MoreViewController.m */,
 				84A9FE7519D404E300A39C67 /* SideTabBarController.h */,
 				84A9FE7619D404E300A39C67 /* SideTabBarController.m */,
 				84A9FE4319D3FE0F00A39C67 /* AppDelegate.h */,
 				84A9FE4419D3FE0F00A39C67 /* AppDelegate.m */,
-				84A9FE4919D3FE0F00A39C67 /* ViewController.h */,
-				84A9FE4A19D3FE0F00A39C67 /* ViewController.m */,
-				84AE3AB619D96F6B00F91C90 /* Storyboard.storyboard */,
 				84A9FE4C19D3FE0F00A39C67 /* Images.xcassets */,
 				84A9FE3B19D3FE0F00A39C67 /* Supporting Files */,
 			);
@@ -208,8 +192,6 @@
 			children = (
 				84A9FE7B19D4289F00A39C67 /* SideTabBarMenuView.h */,
 				84A9FE7C19D4289F00A39C67 /* SideTabBarMenuView.m */,
-				84A67E7719D58B9700DF2EA5 /* UISideBarDelegate.h */,
-				84A67E7819D58B9700DF2EA5 /* UISideBarDelegate.m */,
 			);
 			name = SideTabBar;
 			sourceTree = "<group>";
@@ -305,7 +287,6 @@
 				84AC79C119E2D3AD00287964 /* emoji_objects.png in Resources */,
 				84AC79C419E2DA9800287964 /* emoji_people.png in Resources */,
 				84A9FE3F19D3FE0F00A39C67 /* InfoPlist.strings in Resources */,
-				84AE3AB719D96F6B00F91C90 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,9 +306,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A9FE7D19D4289F00A39C67 /* SideTabBarMenuView.m in Sources */,
-				84AE3AB519D9419F00F91C90 /* MoreViewController.m in Sources */,
-				84A9FE4B19D3FE0F00A39C67 /* ViewController.m in Sources */,
-				84A67E7919D58B9700DF2EA5 /* UISideBarDelegate.m in Sources */,
 				84A9FE4519D3FE0F00A39C67 /* AppDelegate.m in Sources */,
 				84A9FE7A19D41B0E00A39C67 /* SideTabBarItem.m in Sources */,
 				84A9FE7719D404E300A39C67 /* SideTabBarController.m in Sources */,

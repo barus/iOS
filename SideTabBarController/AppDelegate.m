@@ -16,60 +16,62 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // first item
-    SideTabBarItem *tabBarItem = [[SideTabBarItem alloc] initWithTitle:@"First" image:[UIImage imageNamed:@"emoji_objects.png"]];
-    tabBarItem.selectedImage = [UIImage imageNamed:@"UIImageNameIndicatorDot@2x.png"];
-    
-    UIViewController* firstController = [UIViewController new];
-    UIWebView* webView = [UIWebView new];
     
     NSString *urlAddress = @"http://www.tut.by";
     NSURL *url = [NSURL URLWithString:urlAddress];
+    UIWebView *webView = [UIWebView new];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [webView loadRequest:requestObj];
-    firstController.view = webView;
+    
+    UIViewController *controller = [UIViewController new];
+    controller.view = webView;
+    
+    SideTabBarItem *tabBarItem = [[SideTabBarItem alloc] initWithTitle:@"First" image:[UIImage imageNamed:@"emoji_objects.png"]];
+    tabBarItem.selectedImage = [UIImage imageNamed:@"UIImageNameIndicatorDot@2x.png"];
     
     SideTabBarContentDescription *content = [SideTabBarContentDescription new];
-    content.controller = firstController;
+    content.controller = controller;
     content.tabBarItem = tabBarItem;
     
     // second item
-    SideTabBarItem *tabBarItem1 = [[SideTabBarItem alloc] initWithTitle:@"Second" image:[UIImage imageNamed:@"emoji_people.png"]];
-    tabBarItem1.selectedImage = [UIImage imageNamed:@"UIImageNameIndicatorDot@2x.png"];
-    
-    UIViewController* firstController1 = [UIViewController new];
-    UIWebView* webView1 = [UIWebView new];
     
     NSString *urlAddress1 = @"http://www.bbc.com";
     NSURL *url1 = [NSURL URLWithString:urlAddress1];
     NSURLRequest *requestObj1 = [NSURLRequest requestWithURL:url1];
+    UIWebView *webView1 = [UIWebView new];
     [webView1 loadRequest:requestObj1];
-    firstController1.view = webView1;
+    
+    UIViewController *controller1 = [UIViewController new];
+    controller1.view = webView1;
+    
+    SideTabBarItem *tabBarItem1 = [[SideTabBarItem alloc] initWithTitle:@"Second" image:[UIImage imageNamed:@"emoji_people.png"]];
+    tabBarItem1.selectedImage = [UIImage imageNamed:@"UIImageNameIndicatorDot@2x.png"];
     
     SideTabBarContentDescription *content1 = [SideTabBarContentDescription new];
-    content1.controller = firstController1;
+    content1.controller = controller1;
     content1.tabBarItem = tabBarItem1;
     
     // third item
-    SideTabBarItem *tabBarItem2 = [[SideTabBarItem alloc] initWithTitle:@"Third" image:[UIImage imageNamed:@"emoji_places.png"]];
-    tabBarItem2.selectedImage = [UIImage imageNamed:@"UIImageNameIndicatorDot@2x.png"];
-    
-    UIViewController* firstController2 = [UIViewController new];
-    UIWebView* webView2 = [UIWebView new];
     
     NSString *urlAddress2 = @"http://www.ororo.tv";
     NSURL *url2 = [NSURL URLWithString:urlAddress2];
     NSURLRequest *requestObj2 = [NSURLRequest requestWithURL:url2];
+    UIWebView *webView2 = [UIWebView new];
     [webView2 loadRequest:requestObj2];
-    firstController2.view = webView2;
+    
+    UIViewController *controller2 = [UIViewController new];
+    controller2.view = webView2;
+    
+    SideTabBarItem *tabBarItem2 = [[SideTabBarItem alloc] initWithTitle:@"Third" image:[UIImage imageNamed:@"emoji_places.png"]];
+    tabBarItem2.selectedImage = [UIImage imageNamed:@"UIImageNameIndicatorDot@2x.png"];
     
     SideTabBarContentDescription *content2 = [SideTabBarContentDescription new];
-    content2.controller = firstController2;
+    content2.controller = controller2;
     content2.tabBarItem = tabBarItem2;
     
-    
-    SideTabBarController *controller = [SideTabBarController new];
-    controller.contentDescriptions = [NSArray arrayWithObjects:content, content1, content2, nil];
-    self.window.rootViewController = controller;
+    SideTabBarController *mainController = [SideTabBarController new];
+    mainController.contentDescriptions = [NSArray arrayWithObjects:content, content1, content2, [SideTabBarContentDescription new] , nil];
+    self.window.rootViewController = mainController;
     [self.window makeKeyAndVisible];
     
     return YES;

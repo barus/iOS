@@ -10,11 +10,4 @@
 
 @implementation SideTabBarContentDescription
 
-- (id)initWithViewController:(UIViewController *)contentController
-{
-    self = [super init];
-    self.controller = contentController;
-    
-    return self;
-}
 @end

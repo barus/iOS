@@ -15,7 +15,6 @@
 
 @property(nonatomic, strong) NSArray *contentDescriptions;
 @property(nonatomic, weak, readonly) SideTabBarMenuView *tabBar;
-@property(nonatomic, readonly) UINavigationController *moreNavigationController;
 @property(nonatomic) NSUInteger selectedIndex;
 @property(nonatomic, assign) SideTabBarContentDescription *selectedTabBarContentDescription;
 

@@ -15,6 +15,4 @@
 @property(nonatomic, strong) SideTabBarItem *tabBarItem;
 @property(nonatomic, strong) UIViewController *controller;
 
-- (id)initWithViewController:(UIViewController *)contentController;
-
 @end
